@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { View, Text, Button } from 'react-native';
 
-// Pantalla de configuraciones simple
 export default function SettingsScreen({ route, navigation }) {
 
 const { messageScreen2 } = route.params;
